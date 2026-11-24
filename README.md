@@ -11,6 +11,10 @@ A 1-DOF (one degree of freedom) vehicle motion simulator prototype built with **
 2. **Serial Transmission (USB):** SimTools formats the 10-bit axis position (`0`–`1023`) as a semicolon-delimited decimal string (`<Axis1a>;`) and sends it over USB serial[cite: 3].
 3. **Actuation & Display (ESP32):** The ESP32 parses incoming values, maps the 10-bit range to servo angles (`20°`–`173°`), drives an SG90 micro servo via PWM, and outputs the current raw position value onto a 16×2 LCD[cite: 3].
 
+[![racing-sim-proof-of-concept](https://img.youtube.com/vi/kdlv3q1Omgo/hqdefault.jpg)](https://www.youtube.com/watch?v=kdlv3q1Omgo)
+
+[Watch racing-sim-proof-of-concept on YouTube](https://www.youtube.com/watch?v=kdlv3q1Omgo)
+
 ---
 
 ## SimTools Configuration
