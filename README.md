@@ -1,3 +1,6 @@
+#    racing-sim-proof-of-concept
+
+
 A 1-DOF (one degree of freedom) vehicle motion simulator prototype built with **SimTools** and an **ESP32** microcontroller[cite: 3]. The system extracts real-time telemetry (position and acceleration vectors) from racing games, transmits axis position values over USB serial, actuates a servo motor to simulate vehicle surge, and displays live axis values on a 16×2 character LCD[cite: 3].
 
 ---
